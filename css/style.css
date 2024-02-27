@@ -112,8 +112,51 @@ img {
 
 /* barra */
 
-.barra {
+.footer {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: grey; /* Sostituisci con il colore esatto di grigio */
+  }
+  
+  .footer-sezione {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-sezione.centro {
+    justify-content: center;
+    
+  }
+  
+  .footer-sezione.destra {
+    justify-content: flex-end;
+  }
+  
+  .fas {
+    font-size: 20px;
+    padding: 5px;
+  }
 
-    height: 100px;
-    background-color: grey;
+  .footer-item {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Spaziatura tra gli elementi */
+    
 }
+    
+    
+  .destra {
+    background-color: rgb(73, 73, 73);
+    font-size: 15px;
+    color: red;
+    padding: 20px;
+   
+    
+   
+  }
+  
