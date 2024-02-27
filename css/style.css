@@ -18,19 +18,55 @@ img {
 
 header{
     width: 100%;
+    background-color: black;
+    
 
 }
 
-/* container della griglia*/
+/* option1 container */
+
+.options1 {
+    width: 85vw;
+    position: relative;
+
+}
+
+
+
+
+/* container */
 
 .container {
     width: 64vw;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid white;
     background-color: black;
+    display: flex;
     
 }
+
+/* speaker view part */
+
+.speaker-view {
+    background-color: aliceblue;
+    font-size: 10px;
+    position: absolute;
+    right: 45px;
+
+    
+}
+
+/* expand option in alto a destra*/
+
+.expand {
+    
+    background-color: #D84315;
+    font-size: 10px;
+    position: absolute;
+    right: 33px;
+    top: 0px;
+}
+
 
 /* regole imposte dal contenitore generale */
 .flex {
@@ -43,15 +79,18 @@ header{
 /* display / griglia*/
 
 .display {
-    padding: 5px;
+    
     width: 8vw;
     height: 70px;
-    border: 1px dashed black;
+    
     background-image: url(../img/572.jpg);
     background-size: cover;
     position: relative;
     color: white;
     margin: 5px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -61,7 +100,12 @@ header{
     position:absolute;
     bottom: 0;
     left: 0;
+    opacity: 0.2;
+    background-color: lightgrey; 
+         
 }
+
+
 
 
 /* barra */
