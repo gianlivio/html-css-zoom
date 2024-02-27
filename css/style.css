@@ -16,7 +16,7 @@ img {
 
 /* header */
 
-header{
+.header {
     width: 100%;
     background-color: black;
     
@@ -26,32 +26,20 @@ header{
 /* option1 container */
 
 .options1 {
-    width: 85vw;
+    width: 100vw;
     position: relative;
 
-}
-
-
-
-
-/* container */
-
-.container {
-    width: 64vw;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: black;
-    display: flex;
-    
 }
 
 /* speaker view part */
 
 .speaker-view {
-    background-color: aliceblue;
+    background-color: grey;
+    color: white;
+    border-radius: 10%;
     font-size: 10px;
     position: absolute;
-    right: 45px;
+    right: 50px;
 
     
 }
@@ -60,11 +48,28 @@ header{
 
 .expand {
     
-    background-color: #D84315;
+    background-color: grey;
+    color: white;
+    border-radius: 10%;
     font-size: 10px;
     position: absolute;
     right: 33px;
     top: 0px;
+}
+
+
+
+
+/* container */
+
+.container {
+    height: 85vh;
+    width: 88vw;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    
 }
 
 
@@ -80,28 +85,25 @@ header{
 
 .display {
     
-    width: 8vw;
-    height: 70px;
-    
+    width: 11vw;
+    height: 100px;
+    margin: 5px 4px;
     background-image: url(../img/572.jpg);
     background-size: cover;
-    position: relative;
-    color: white;
-    margin: 5px 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;   
+    
 
 }
 
 /* minidisplay */
 
 .minidisplay {
+    color: white;
     position:absolute;
     bottom: 0;
     left: 0;
-    opacity: 0.2;
-    background-color: lightgrey; 
+    opacity: 0.6;
+    background-color: grey; 
          
 }
 
