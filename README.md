@@ -1,10 +1,10 @@
 # Virtual Meeting Interface
 
-## Subtitle: Video Call Between Characters from The Lord of the Rings
+## Video Call Between Characters from The Lord of the Rings
 
 This project is a virtual meeting interface designed as a fun and engaging way to showcase a video call between characters from The Lord of the Rings. The interface includes various features and controls to manage the meeting effectively.
 
-![screenshot](screenshot.png)
+![screenshot](/img/screenshot.png)
 
 ## Technologies Used
 
@@ -20,9 +20,7 @@ This project is a virtual meeting interface designed as a fun and engaging way t
 - **Dynamic Display:** Each participant is displayed with their name and status icons.
 - **Footer Controls:** Essential meeting controls like mute, stop video, invite, share screen, chat, and more.
 
-## Screenshot
 
-![Screenshot](screenshot.png)
 
 ## Future Implementations
 
