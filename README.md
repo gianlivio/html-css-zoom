@@ -4,7 +4,7 @@
 
 This project is a virtual meeting interface designed as a fun and engaging way to showcase a video call between characters from The Lord of the Rings. The interface includes various features and controls to manage the meeting effectively.
 
-![screenshot](screenshot.png)
+![screenshot](/img/screenshot.png)
 
 ## Technologies Used
 
